@@ -1,0 +1,2 @@
+The most common integer types are int and uint, but some situations call for smaller or larger types.  
+Integer types need to be chosen carefully to avoid wrapping around, unless wrapping is what you want.
