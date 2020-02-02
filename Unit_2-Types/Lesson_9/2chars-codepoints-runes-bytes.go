@@ -26,5 +26,9 @@ func main() {
 	peace := "shalom"
 	peace = `salām`
 	c := peace[5]
-	fmt.Printf("%c \n", c)
+	fmt.Printf("\n %c \n \n", c) //%c -> UNICODE character
+
+	for i := 0; i < len(peace); i++ {
+		fmt.Printf("%c \n", peace[i])
+	}
 }
